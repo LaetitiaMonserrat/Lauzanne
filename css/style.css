@@ -41,7 +41,7 @@ main{
 	display: flex;
 	min-height: 430px;
 }
-.social_network{
+.socialNetwork{
 	display: none;
 }
 main .btn a{
@@ -78,12 +78,12 @@ main .btn a:hover{
 	.weather p {
 		margin: 0 0 0 10%;
 	}
-	.social_network{
+	.socialNetwork{
 		display: flex;
 		flex-direction: column;
 		align-self: center;
 	}
-	.social_network .fa{
+	.socialNetwork .fa{
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -91,32 +91,32 @@ main .btn a:hover{
 		height: 40px;
 		background: #2682c2;
 	}
-	.social_network .fa:hover{
+	.socialNetwork .fa:hover{
 		background: #10435f;
 		width: 179%;
 	}
-	.social_network .fa:hover:before{
+	.socialNetwork .fa:hover:before{
 		margin: 0 auto;
 	}
-	.social_network .fa:hover:after{
+	.socialNetwork .fa:hover:after{
 		margin: 0 auto;
 	}
-	.social_network .fa-facebook:hover:after{
+	.socialNetwork .fa-facebook:hover:after{
 		content: "Facebook";
 	}
-	.social_network .fa-twitter:hover:after{
+	.socialNetwork .fa-twitter:hover:after{
 		content: "Twitter";
 	}
-	.social_network .fa-instagram:hover:after{
+	.socialNetwork .fa-instagram:hover:after{
 		content: "Instagram";
 	}
-	.social_network .fa-pinterest:hover:after{
+	.socialNetwork .fa-pinterest:hover:after{
 		content: "Pinterest";
 	}
-	.social_network .fa-youtube:hover:after{
+	.socialNetwork .fa-youtube:hover:after{
 		content: "Youtube";
 	}
-	.social_network .fa-linkedin:hover:after{
+	.socialNetwork .fa-linkedin:hover:after{
 		content: "Linkedin";
 	}
 	.btn {
