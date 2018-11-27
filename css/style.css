@@ -122,6 +122,7 @@ main .btn a:hover{
 	.btn {
 		flex-direction: row;
 		margin-right: 40px;
+		justify-content:center;
 	}
 	.btn a{
 		max-width: 100%;
