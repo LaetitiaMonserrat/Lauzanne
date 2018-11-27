@@ -1,0 +1,125 @@
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.fa{
+	color: #ffffff;
+}
+/* ______________ NAV _____________ */
+header{
+	background: #4d4d54;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1%;
+}
+header img{
+	max-height: 60px;
+	max-width: 177px;
+	width: 18%;
+}
+header h1{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.weather{
+	display: none;
+}
+.icons{
+	display: flex;
+}
+.icons .fa {
+	display: flex;
+	justify-content: center;
+	width: 40px;
+}
+
+/* ______________ MAIN _____________ */
+
+main{
+	background: url(../img/lauzanne_img.jpg) center 50% no-repeat;
+	display: flex;
+	min-height: 430px;
+}
+.social_network{
+	display: none;
+}
+main .btn a{
+	background: rgba(23,23,23,0.6);
+	color: #ffffff;
+	padding: 1em 5%;
+	margin: 1px;
+	text-align: center;
+	max-width: 370px;
+	width: 80%;
+}
+main .btn a:hover{
+	background: rgba(233,233,233,0.6);
+	color: #232323;
+}
+.btn {
+	display: flex;
+	align-self:flex-end;
+	flex-direction: column;
+	margin: 0 5% 0 0;
+	width: 100%;
+}
+/* ______________ MEDIA QUERIES _____________ */
+
+@media all and (min-width: 768px){
+	.weather{
+		color: white;
+		display: flex;
+		align-items: center;
+	}
+	.fa-cloud{
+		border-right: 1px solid white;
+	}
+	.weather p {
+		margin: 0 0 0 10%;
+	}
+	.social_network{
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+	}
+	.social_network .fa{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 40px;
+		background: #2682c2;
+	}
+	.social_network .fa:hover{
+		background: #10435f;
+		width: 179%;
+	}
+	.social_network .fa:hover:before{
+		margin: 0 auto;
+	}
+	.social_network .fa:hover:after{
+		margin: 0 auto;
+	}
+	.social_network .fa-facebook:hover:after{
+		content: "Facebook";
+	}
+	.social_network .fa-twitter:hover:after{
+		content: "Twitter";
+	}
+	.social_network .fa-instagram:hover:after{
+		content: "Instagram";
+	}
+	.social_network .fa-pinterest:hover:after{
+		content: "Pinterest";
+	}
+	.social_network .fa-youtube:hover:after{
+		content: "Youtube";
+	}
+	.social_network .fa-linkedin:hover:after{
+		content: "Linkedin";
+	}
+	.btn {
+		flex-direction: row;
+	}
+}
