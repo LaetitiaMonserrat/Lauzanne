@@ -33,6 +33,9 @@ header h1{
 	justify-content: center;
 	width: 40px;
 }
+.icons > .fa:hover {
+	color: #2682c2;
+}
 
 /* ______________ MAIN _____________ */
 
