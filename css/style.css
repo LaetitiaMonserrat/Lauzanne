@@ -68,6 +68,7 @@ main .btn a:hover{
 /* ______________ MEDIA QUERIES _____________ */
 
 @media all and (min-width: 768px){
+	/* ______________ NAV _____________ */
 	.weather{
 		color: white;
 		display: flex;
@@ -78,6 +79,10 @@ main .btn a:hover{
 	}
 	.weather p {
 		margin: 0 0 0 10%;
+	}
+	/* ______________ MAIN _____________ */
+	main{
+		min-height: 600px;
 	}
 	.socialNetwork{
 		display: flex;
